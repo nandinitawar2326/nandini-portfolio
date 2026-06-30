@@ -1,0 +1,53 @@
+.footer {
+  background: #0f172a;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.footer h2 {
+  color: #38bdf8;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  color: #cbd5e1;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin: 30px 0;
+}
+
+.footer-icons a {
+  color: white;
+  font-size: 28px;
+  transition: 0.3s;
+}
+
+.footer-icons a:hover {
+  color: #38bdf8;
+  transform: scale(1.2);
+}
+
+.top-btn {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 12px;
+  background: #38bdf8;
+  color: white;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.top-btn:hover {
+  transform: translateY(-5px);
+}
+
+.copyright {
+  margin-top: 20px;
+  color: #94a3b8;
+}
