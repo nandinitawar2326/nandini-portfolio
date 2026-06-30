@@ -12,8 +12,6 @@ function Projects() {
       tech: ["React", "Node.js", "Express.js", "MySQL"],
       description:
         "A full-stack e-commerce website with secure authentication, shopping cart, order management, responsive design, and MySQL database integration.",
-      github: "#",
-      demo: "#",
     },
     {
       title: "Event Management System",
@@ -21,8 +19,6 @@ function Projects() {
       tech: ["React", "Node.js", "Express.js", "MySQL"],
       description:
         "An event booking platform with user registration, event scheduling, booking management, and an admin dashboard.",
-      github: "#",
-      demo: "#",
     },
     {
       title: "AI Emotion Detector",
@@ -30,8 +26,6 @@ function Projects() {
       tech: ["Python", "OpenCV", "DeepFace", "TensorFlow"],
       description:
         "A real-time AI application that detects human emotions from facial expressions using computer vision and deep learning.",
-      github: "#",
-      demo: "#",
     },
   ];
 
@@ -60,16 +54,6 @@ function Projects() {
               </div>
 
               <p>{project.description}</p>
-
-              <div className="project-buttons">
-                <a href={project.github} className="project-btn">
-                  GitHub
-                </a>
-
-                <a href={project.demo} className="project-btn outline">
-                  Live Demo
-                </a>
-              </div>
             </div>
           </div>
         ))}
