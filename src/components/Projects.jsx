@@ -16,7 +16,8 @@ function Projects() {
       tech: ["Python", "Machine Learning", "scikit-learn", "FastAPI"],
       description:
         "An AI-based cognitive gaming and memory assistance platform for elderly dementia patients, featuring adaptive difficulty prediction and cognitive performance analysis.",
-    },
+      demo: "https://nirvana-sih26003-9wg7.vercel.app/"
+      },
 
     {
       title: "JanSetu AI",
