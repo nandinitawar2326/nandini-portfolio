@@ -51,7 +51,9 @@ function Projects() {
       tech: ["React", "Node.js", "Express.js", "MySQL"],
       description:
         "A full-stack event booking platform with user authentication, event scheduling, booking management, REST APIs, MySQL integration, and an admin dashboard.",
-    },
+      demo: "https://event-management-system-seven-eta.vercel.app/?utm_source=chatgpt.com"
+      },
+
 
     {
       title: "Online Shopping Website",
